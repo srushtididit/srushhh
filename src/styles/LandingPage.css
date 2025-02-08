@@ -1,0 +1,63 @@
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1.5rem 5.5rem 0 8rem;
+}
+
+.logo {
+    font-size: 2.5rem;
+    font-weight: 600;
+    letter-spacing: 4px;
+}
+
+button {
+    background-color: #570e9c;
+    opacity: 0.7;
+    color: white;
+    margin-right: 2.5rem;
+    font-size: 1rem;
+    padding: 0.4rem 1.5rem;
+    border-radius: 8px;
+    border-width: 0;
+    box-shadow: 4px 4px 8px rgb(126, 126, 126);
+}
+
+button:hover {
+    cursor: pointer;
+    opacity: 0.9;
+    transition: 0.5s;
+}
+
+.info {
+    z-index: 100;
+    position: absolute;
+    top: 9rem;
+    left: 9rem;
+    line-height: 7rem;
+}
+
+.info-title {
+    font-size: xx-large;
+    font-weight: 500;
+}
+
+.info-content {
+    font-size: x-large;
+    line-height: 2rem;
+}
+
+img {
+    position: relative;
+    top: 9rem;
+    left: 10rem;
+    height: 70vh;
+    width: 90%;
+}
+
+.get-started {
+    font-size: larger;
+    padding: 0.6rem 1.7rem;
+    margin: 4rem 0 0 0;
+}
