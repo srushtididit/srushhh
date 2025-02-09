@@ -1,4 +1,4 @@
-.body {
+.body-login {
     font-family: Arial, sans-serif;
     background-color: #7E57C2;
     display: flex;
@@ -8,13 +8,14 @@
     margin: -8px;
 }
 
-.container {
+.container-login {
     background-color: white;
     padding: 30px;
     border-radius: 15px;
     box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
     width: 400px;
     text-align: center;
+    height: 50%;
 }
 
 .heading {

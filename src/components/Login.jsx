@@ -4,8 +4,8 @@ import "../styles/Login.css";
 
 const LoginPage = () => {
     return (
-        <div className="body">
-            <div className="container">
+        <div className="body-login">
+            <div className="container-login">
                 <h2 className="heading">Login</h2>
                 <form action="LoginServlet" method="post" className="form">
                     <input

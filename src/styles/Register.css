@@ -1,4 +1,4 @@
-.body {
+.body-register {
     font-family: Arial, sans-serif;
     background-color: #7E57C2;
     display: flex;
@@ -7,7 +7,7 @@
     margin: -8px;
 }
 
-.container {
+.container-register {
     background-color: white;
     padding: 25px 60px;
     border-radius: 15px;

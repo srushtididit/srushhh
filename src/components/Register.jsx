@@ -4,8 +4,8 @@ import "../styles/Register.css";
 
 const RegistrationPage = () => {
     return (
-        <div className="body">
-            <div className="container">
+        <div className="body-register">
+            <div className="container-register">
                 <h2 className="heading">Registration</h2>
                 <form action="RegistrationServlet" method="post" className="form">
                     <input type="text" name="name" placeholder="Name" className="input" required />
