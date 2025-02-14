@@ -33,16 +33,17 @@ const Questionnaire = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    const response = await fetch("http://localhost:5000/api/questionnaire", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify(formData),
+    const response = await fetch("http://localhost:5000/api/Questionnaire", {  // Correct API endpoint
+        method: "POST",
+        headers: {
+            "Content-Type": "application/json",
+        },
+        body: JSON.stringify(formData),
     });
     const data = await response.json();
-    alert(`Prediction: ${data.prediction}`);
-  };
+    alert(`Recommended Career: ${data.recommendation}`);
+};
+
 
   return (
     <div>

@@ -1,10 +1,10 @@
 import './App.css'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
-import LandingPage from './components/LandingPage'
-import Register from "./components/Register"
-import Login from "./components/Login"
-
+import LandingPage from './components/LandingPage';
+import Register from "./components/Register";
+import Login from "./components/Login";
+import Questionnaire from "./components/Questionnaire"; // Import the Questionnaire component
 
 const router = createBrowserRouter([
   {
@@ -19,15 +19,18 @@ const router = createBrowserRouter([
     path: '/login',
     element: <Login />
   },
-])
+  {
+    path: '/questionnaire', // Add this route
+    element: <Questionnaire />
+  },
+]);
 
 function App() {
-
   return (
     <>
-      <RouterProvider router={router}></RouterProvider>
+      <RouterProvider router={router} />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
